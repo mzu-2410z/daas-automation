@@ -1,0 +1,21 @@
+# =============================================================================
+# requirements.txt
+# Generated for Python 3.10+
+# Install with:  pip install -r requirements.txt
+# =============================================================================
+
+# HTTP client
+requests==2.32.3
+
+# Data manipulation
+pandas==2.2.2
+
+# Google Sheets integration
+gspread==6.1.2
+google-auth==2.30.0
+
+# Environment variable management
+python-dotenv==1.0.1
+
+# urllib3 is a transitive dependency of requests; pin for security.
+urllib3==2.2.1
